@@ -27,15 +27,24 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MPZ-z0-59k">
                                 <rect key="frame" x="314" y="79" width="49" height="31"/>
                             </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bowei shows up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Vs-Kh-N3j">
+                                <rect key="frame" x="146" y="530.5" width="123" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="5Vs-Kh-N3j" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="146" id="0ck-5P-k4n"/>
                             <constraint firstItem="MPZ-z0-59k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="314" id="8Zt-8f-bNK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mcP-Cj-Pvr" secondAttribute="bottom" constant="399" id="F3O-Rs-3sF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5Vs-Kh-N3j" secondAttribute="trailing" constant="145" id="FRE-4x-eoW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MPZ-z0-59k" secondAttribute="trailing" constant="53" id="Xxx-Bs-Oov"/>
                             <constraint firstItem="mcP-Cj-Pvr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="cN1-EK-rYN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mcP-Cj-Pvr" secondAttribute="trailing" constant="139" id="e3t-xr-o0R"/>
                             <constraint firstItem="mcP-Cj-Pvr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="389" id="ldS-f6-0Sf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5Vs-Kh-N3j" secondAttribute="bottom" constant="311" id="oa2-F2-aH3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
