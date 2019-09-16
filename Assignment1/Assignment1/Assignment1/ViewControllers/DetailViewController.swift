@@ -11,7 +11,7 @@ import UIKit
 class DetailViewController: UIViewController {
     
     var selectedMovie: Movie?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print(self.selectedMovie!.title)

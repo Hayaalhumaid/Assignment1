@@ -63,12 +63,13 @@
                         <barButtonItem key="backBarButtonItem" title=" " id="h9I-R0-Glp"/>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="x9p-Wl-vFu">
                             <switch key="customView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="FPh-nb-XGf">
-                                <rect key="frame" x="-24" y="-15" width="49" height="31"/>
+                                <rect key="frame" x="343" y="6.5" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </switch>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="switchBtn" destination="FPh-nb-XGf" id="csj-d3-hCN"/>
                         <segue destination="Yl7-0C-BPJ" kind="show" identifier="ListToDetail" id="kdf-6s-9Nb"/>
                     </connections>
                 </tableViewController>
@@ -99,6 +100,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SaI-UJ-EF1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1631.8840579710147" y="79.6875"/>
+        </scene>
+        <!--Collection View Controller-->
+        <scene sceneID="dwA-Zg-qks">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CollectionViewStoryboard" referencedIdentifier="Collection View Controller" id="e6O-AM-Q7P" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Ks-b8-G7C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1468" y="534"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="JxN-g5-kec">
